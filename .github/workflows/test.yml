@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test Action
-        uses: fernandoataoldotcom/test-gha-publish@v0.1.x
+        uses: fernandoataoldotcom/test-gha-publish@v0.1.0
