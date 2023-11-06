@@ -1,0 +1,11 @@
+name: Publish Docker Image to ghcr
+
+on:
+  push:
+
+jobs:
+  test_action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Action
+        uses: fernandoataoldotcom/test-gha-publish@v0.1
